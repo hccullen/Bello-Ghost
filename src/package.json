@@ -1,20 +1,16 @@
 {
-  "name": "casper",
-  "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+  "name": "Bello LeChuck",
+  "description": "Based on the default Ghost theme, Casper, LeChuck is the most fearsome pirate ever to sail the seven seas.",
   "demo": "https://demo.ghost.io",
-  "version": "2.0.1",
+  "version": "1.0.1",
   "engines": {
     "ghost": ">=1.0.0"
   },
   "license": "MIT",
-  "screenshots": {
-    "desktop": "assets/screenshot-desktop.jpg",
-    "mobile": "assets/screenshot-mobile.jpg"
-  },
   "author": {
-    "name": "Ghost Foundation",
-    "email": "hello@ghost.org",
-    "url": "https://ghost.org"
+    "name": "Henrik Cullen",
+    "email": "hello@belloforwork.com",
+    "url": "https://belloforwork.com"
   },
   "gpm": {
     "type": "theme",
@@ -29,15 +25,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TryGhost/Casper.git"
+    "url": "https://github.com/hccullen/Bello-Ghost.git"
   },
-  "bugs": "https://github.com/TryGhost/Casper/issues",
-  "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
   "devDependencies": {
     "autoprefixer": "6.3.6",
     "cssnano": "3.7.1",
     "ghost": "^1.1.0",
     "gulp": "3.9.1",
+    "gulp-copy": "^1.0.0",
     "gulp-livereload": "3.8.1",
     "gulp-nodemon": "2.1.0",
     "gulp-postcss": "6.1.1",

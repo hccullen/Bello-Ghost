@@ -218,6 +218,9 @@ body {
   align-items: center;
 }
 @media screen and (max-width: 700px) {
+  .nav__header {
+    width: 100%;
+  }
   .nav__ul {
     display: block;
     flex-direction: column;
@@ -228,7 +231,10 @@ body {
     max-height: 0vh;
   }
 }
-
+.nav__link {
+  margin: 0;
+  line-height: 1;
+}
 .nav__link a{
   flex: 1;
   text-decoration: none;
@@ -529,7 +535,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
+    background: var(--gray-0);
 }
 
 .post-full {
@@ -599,7 +605,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     font-family: Georgia, serif;
     font-size: 2.2rem;
     line-height: 1.6em;
-    background: #fff;
+    background: var(--gray-0);
 }
 
 @media (max-width: 1170px) {
@@ -800,7 +806,7 @@ Super neat trick courtesy of @JoelDrapper
     width: 1px;
     height: 30px;
     background: color(var(--lightgrey) l(+10%));
-    box-shadow: #fff 0 0 0 5px;
+    box-shadow: var(--gray-0) 0 0 0 5px;
     transform: rotate(45deg);
 }
 

@@ -1,3 +1,20 @@
+// Makes the navbar work
+(function () {
+
+  var nav__toggle = document.getElementsByClassName("nav__toggle")[0],
+      navUl = document.getElementsByClassName("nav__ul");
+
+  function toggleMobileMenu() {
+    navUl[0].style.transition = "max-height 0.2s ease";
+    navUl[0].classList.toggle("nav__ul--hide");
+    stickyNav.classList.toggle("nav--open");
+
+  }
+
+  nav__toggle.onclick = toggleMobileMenu;
+}());
+
+
 // Code snippet inspired by https://github.com/douglasrodrigues5/ghost-blog-infinite-scroll
 $(function ($) {
     var currentPage = 1;

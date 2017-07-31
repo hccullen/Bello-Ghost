@@ -33,7 +33,7 @@ gulp.task('build', ['css', 'package-copy'], function (/* cb */) {
 
 gulp.task('package-copy', function () {
     gulp.src('package.json')
-    .pipe(gulpCopy('/src'))
+    .pipe(gulpCopy('src'))
 });
 
 
@@ -63,6 +63,6 @@ gulp.task('default', ['build'], function () {
 
 gulp.task('generate', ['build'], () =>
     gulp.src('src/**/*')
-        .pipe(zip('bello-casper.zip'))
+        .pipe(zip('bello-lechuck.zip'))
         .pipe(gulp.dest(''))
 );
