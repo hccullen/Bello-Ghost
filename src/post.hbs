@@ -99,9 +99,6 @@ into the {body} of the default.hbs template --}}
                 <article class="read-next-card"
                     {{#if ../tags.[0].feature_image}}
                         style="background-image: url({{../tags.[0].feature_image}})"
-                    {{else}}
-                        {{#if @blog.cover_image}}
-                            style="background-image: url({{@blog.cover_image}})"{{/if}}
                     {{/if}}
                 >
                     <header class="read-next-card-header">

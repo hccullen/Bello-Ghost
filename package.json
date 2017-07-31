@@ -1,8 +1,7 @@
 {
   "name": "Bello LeChuck",
   "description": "Based on the default Ghost theme, Casper, LeChuck is the most fearsome pirate ever to sail the seven seas.",
-  "demo": "https://demo.ghost.io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "ghost": ">=1.0.0"
   },
